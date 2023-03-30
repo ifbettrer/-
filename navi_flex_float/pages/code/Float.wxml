@@ -1,0 +1,11 @@
+<!--pages/code/Float.wxml-->
+<view class="box">
+  <view class="title">float页面布局</view>
+  <view class="bg1">
+  <view class="header">上</view>
+  <view class="leftBar">左</view>
+  <view class="main">中</view>
+  <view class="rightBar">右</view>
+  <view class="footer">下</view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">传统节日科普</view>
+  <view style="font-family: 宋体; font-size: 18px;">春节</view>
+  <view class="textStyle1">
+    春节历史悠久，由上古时代岁首祈岁祭祀演变而来。万物本乎天、人本乎祖，祈岁祭祀、敬天法祖，报本反始也。春节的起源蕴含着深邃的文化内涵，在传承发展中承载了丰厚的历史文化底蕴。春节期间，各家都要举行各种庆祝活动，这些活动大多以祭祀神佛、祭奠祖先、除旧布新、迎禧接福、祈求丰年为主要内容。
+  </view>
+  ========================
+  <view class="textStyle2">
+    The Chinese New Year is a great occasion to for Chinese people.It lasts about the first four days of the year,during which people do not work except for the workers on duty. Students do not go to school,and shops are closed.
+  </view>
+</view>

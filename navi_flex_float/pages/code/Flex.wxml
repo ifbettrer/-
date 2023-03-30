@@ -1,0 +1,27 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">页面布局示例</view>
+  <!--实现三种布局，三栏水平、左右混合、上下混合-->
+  <view style="display: flex; text-align: center;line-height: 80rpx;">
+  <view style="background-color:cornflowerblue; flex-grow: 1;">1</view>
+  <view style="background-color: aquamarine; flex-grow: 1;">2</view>
+  <view style="background-color:cadetblue; flex-grow: 1;">3</view>
+  </view>
+  ----------------------------------------
+  <view style="display: flex; height: 300rpx; text-align: center;">
+    <view style="background-color:darkseagreen;width: 250rpx;line-height: 300rpx;">1</view>
+    <view style="display: flex; flex-direction: column; flex-grow: 1; line-height: 150rpx;">
+      <view style="background-color: darksalmon; flex-grow: 1;">2</view>
+      <view style="background-color:darkslateblue; flex-grow: 1;">3</view>
+    </view>
+  </view>
+  ----------------------------------------
+  <view style="display: flex; flex-direction: column; line-height: 200rpx;text-align: center;">
+    <view style="background-color:powderblue;">1</view>
+    <view style="display: flex; flex-direction: row; flex-grow: 1;">
+      <view style="background-color: plum; flex-grow: 1;">2</view>
+      <view style="background-color: pink; flex-grow: 1;">3</view>
+    </view>
+  </view>
+</view>

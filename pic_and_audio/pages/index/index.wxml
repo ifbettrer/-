@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">Born a stranger</view>
+  <view style="display: flex; justify-content: center;">
+    <image src="{{TotheMoon}}"  bindtap="BornAStranger"></image>
+  </view>
+  -----------------------------------------
+  <view style="font-family: 宋体; font-size: 20px;font-weight: bold;">去月球(TO THE MOON)</view>
+  <view class="boxModel">
+    如果你忘记了，或是走丢了呢? 
+    那么我们总会在月亮上相遇的。
+  </view>
+</view>

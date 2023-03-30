@@ -1,0 +1,22 @@
+/**index.wxss**/
+
+.textStyle1{
+  font-family: 宋体;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-indent: 2em;  /**首行缩进两个字**/
+  white-space: normal;
+  line-height: 18px;
+}
+
+.textStyle2{
+  text-align: justify;
+  color:cadetblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color:palegoldenrod;
+  word-spacing: 1px;
+  white-space:pre-line;
+}

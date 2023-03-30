@@ -1,0 +1,38 @@
+/* pages/code/Float.wxss */
+.bg1{
+  height: 600rpx;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.header{
+  line-height: 150rpx;
+  background-color: cadetblue;
+}
+
+.leftBar{
+  width: 20%;
+  line-height: 300rpx;
+  background-color:darkslateblue;
+  float: left;
+}
+
+.main{
+  width: 60%;
+  line-height: 300rpx;
+  background-color: darkgray;
+  float: left;
+}
+
+.rightBar{
+  width: 20%;
+  line-height: 300rpx;
+  background-color:darkslateblue;
+  float:right;
+}
+
+.footer{
+  line-height: 150rpx;
+  background-color: cadetblue;
+  clear: both;
+}

@@ -1,0 +1,16 @@
+/**index.wxss**/
+
+input{
+  margin: 20px auto;
+  border: 1px solid palevioletred;
+  padding: 5px;
+}
+
+.boxModel{
+  height: auto;
+  border:1px solid palevioletred;
+  padding: 5px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: left;
+}

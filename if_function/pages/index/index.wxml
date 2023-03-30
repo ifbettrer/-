@@ -1,0 +1,9 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">判断是否是闰年</view>
+  <view>
+    <input placeholder="请输入要判断的年份" type="number" bindblur="isLeapYear"></input>
+  </view>
+  <view class="boxModel">是否为闰年：{{Y}}</view>
+</view>
