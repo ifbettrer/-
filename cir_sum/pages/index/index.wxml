@@ -1,0 +1,11 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">计算三角形面积</view>
+  <input placeholder="请输入边长a的值" type="number" bindinput="InputA" placeholder-class="placeholderText"></input>
+  <input placeholder="请输入边长b的值" type="number" bindinput="InputB"placeholder-class="placeholderText"></input>
+  <input placeholder="请输入边长c的值" type="number" bindinput="InputC"placeholder-class="placeholderText"></input>
+
+  <button bindtap="Calculate">计算</button>
+  <view hidden="{{flag}}" style="color: palevioletred; margin-left: 15px; font-style: 宋体;">{{ans}}</view>
+</view>

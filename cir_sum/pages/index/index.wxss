@@ -1,0 +1,24 @@
+/**index.wxss**/
+
+page{
+  background-color: rgb(226, 237, 243);
+}
+
+input{
+  background-color: #fff;
+  border: 1px solid silver;
+  margin:10px;
+  height: 40px;
+  padding: 5px;
+}
+
+.placeholderText{
+  font-size: 15px;
+  font-family: 宋体;
+}
+button{
+  background-color: slateblue;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 黑体;
+}
