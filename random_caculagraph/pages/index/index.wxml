@@ -1,0 +1,20 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">随机数求方程的根</view>
+  <view>产生的随机数为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <!--其中wx:for用于数组循环，item是对数组取名-->
+  <view>方程的根为：{{x}}</view>
+  <button style="width: fit-content;" bindtap="calcNew">产生随机数并求根</button>
+</view>
+
+<view class="box" hidden="{{hidden}}">
+  <view class="title">计时器</view>
+  <view class="time">{{num}}</view>
+  <view class="btnLayout">
+    <button style="width: 30%; font-size: small;" bindtap="start">开始计时</button>
+    <button style="width: 30%; font-size: small;" bindtap="stop">停止计时</button>
+    <button style="width: 30%; font-size: small;" bindtap="reset">重新计时</button>
+  </view>
+</view>
