@@ -1,0 +1,11 @@
+<!--pages/tri-color-flag/tri-color-flag.wxml-->
+
+<view class="box">
+  <view class="title">三色旗变换</view>
+  <view class="flex-wrap">
+    <view class="item" style="background-color: {{color0}}; text-align: center;">1</view>
+    <view class="item" style="background-color: {{color1}}; text-align: center;">2</view>
+    <view class="item" style="background-color: {{color2}}; text-align: center;">3</view>
+  </view>
+  <button bindtap="changeColor">改变颜色</button>
+</view>

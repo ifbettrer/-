@@ -1,0 +1,19 @@
+/* pages/tri-color-flag/tri-color-flag.wxss */
+
+button{
+  background-color: slateblue;
+  color: #fff;
+  font-family: 黑体;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flex-wrap{
+  margin-top: 50rpx;
+  display: flex;
+}
+
+.item{
+  width: 300rpx;
+  height: 500rpx;
+}

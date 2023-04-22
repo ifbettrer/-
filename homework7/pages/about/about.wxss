@@ -1,0 +1,13 @@
+/* pages/about/about.wxss */
+
+.allInput{
+  background-color: #fff;
+  border: 1px solid silver;
+  margin:10px;
+  height: 40px;
+  padding: 5px;
+}
+
+.allInput.error {
+  border: 2rpx solid red;
+}

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/tri-color-flag/tri-color-flag"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#fbb",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home-off.png",
+        "selectedIconPath": "/images/home-on.png"
+      },
+      {
+        "pagePath": "pages/tri-color-flag/tri-color-flag",
+        "text": "三色旗变换",
+        "iconPath": "/images/keyan-off.png",
+        "selectedIconPath": "/images/keyan-on.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "/images/guanyu-off.png",
+        "selectedIconPath": "/images/guanyu-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

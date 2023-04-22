@@ -1,0 +1,6 @@
+<!--index.wxml-->
+
+<view class="box">
+<view class="title">Welcome!</view>
+<image src="/images/welcom.jpg"></image>
+</view>
