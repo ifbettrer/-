@@ -1,0 +1,38 @@
+<!--index.wxml-->
+
+<view class="box">
+  <view class="title">九九乘法表</view>
+  <view class="con">
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+      <view class="inline" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+        <view wx:if="{{j<=i}}">
+          {{i}}x{{j}} = {{i*j}}
+        </view>
+      </view>
+    </view>
+    ===========================================================
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+      <view class="inline" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+        <view wx:if="{{j>=i}}">
+          {{i}}x{{j}} = {{i*j}}
+        </view>
+      </view>
+    </view>
+    ===========================================================
+    <view  wx:for="{{[9,8,7,6,5,4,3,2,1]}}" wx:for-item="i">
+      <view class="inline" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+        <view wx:if="{{j<=i}}">
+          {{j}}x{{i}} = {{i*j}}
+        </view>
+      </view>
+    </view>
+    ===========================================================
+    <view class="inline" wx:for="{{[9,8,7,6,5,4,3,2,1]}}" wx:for-item="i">
+      <view wx:for="{{[9,8,7,6,5,4,3,2,1]}}" wx:for-item="j">
+        <view wx:if="{{j>=i}}">
+          {{i}}x{{j}} = {{i*j}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

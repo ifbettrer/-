@@ -1,0 +1,11 @@
+/**index.wxss**/
+
+.con{
+  font-size: 12px;
+  margin: 5px;
+}
+
+.inline{
+  display: inline-block;
+  width: 60px;
+}
